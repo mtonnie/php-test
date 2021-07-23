@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85f061811f9af58e8794caef846637cd",
+    "packages": [
+        {
+            "name": "cloudfoundry-community/cf-helper-php",
+            "version": "v2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cloudfoundry-community/cf-helper-php.git",
+                "reference": "28687c09cb03a7e2d2e92b71f34b081810756e81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cloudfoundry-community/cf-helper-php/zipball/28687c09cb03a7e2d2e92b71f34b081810756e81",
+                "reference": "28687c09cb03a7e2d2e92b71f34b081810756e81",
+                "shasum": ""
+            },
+            "require-dev": {
+                "mongodb/mongodb": "~1.5",
+                "phpunit/phpunit": "6.5.*",
+                "predis/predis": "~1.0"
+            },
+            "suggest": {
+                "mongodb/mongodb": "Use mongodb in for auto connection",
+                "predis/predis": "Let's you have a redis connection for RedisConnector"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CfCommunity\\CfHelper\\": "src/CfCommunity/CfHelper/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arthur Halet",
+                    "email": "arthur.halet@orange.com"
+                }
+            ],
+            "description": "Cloudfoundry helper in php",
+            "keywords": [
+                "CloudFoundry",
+                "helper",
+                "services",
+                "vcapservices"
+            ],
+            "support": {
+                "issues": "https://github.com/cloudfoundry-community/cf-helper-php/issues",
+                "source": "https://github.com/cloudfoundry-community/cf-helper-php/tree/v2"
+            },
+            "time": "2019-06-12T09:18:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
